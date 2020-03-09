@@ -1,0 +1,3 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(402,5): warning MSB8038: устранение рисков Spectre включено, однако библиотеки Spectre с устраненными рисками не найдены. Убедитесь, что рабочая нагрузка Visual Studio включает библиотеки Spectre с устраненными рисками. Дополнительные сведения см. в статье https://aka.ms/Ofhn4c.
+  Guard.cpp
+  MemoryGuard.vcxproj -> C:\Users\Czynnik.WSZYSTKO-21\source\repos\LiveGuard-AntiHack-Module-MemoryGuard\MemoryGuard_SRC\Release\MemoryGuard.lib

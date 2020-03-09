@@ -1,0 +1,30 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(402,5): warning MSB8038: устранение рисков Spectre включено, однако библиотеки Spectre с устраненными рисками не найдены. Убедитесь, что рабочая нагрузка Visual Studio включает библиотеки Spectre с устраненными рисками. Дополнительные сведения см. в статье https://aka.ms/Ofhn4c.
+  Guard.cpp
+c:\users\czynnik.wszystko-21\source\repos\liveguard-antihack-module-memoryguard\memoryguard_src\memoryguard\guard.cpp(86): warning C4244: аргумент: преобразование "SIZE_T" в "const Second", возможна потеря данных
+          with
+          [
+              Second=DWORD
+          ]
+c:\users\czynnik.wszystko-21\source\repos\liveguard-antihack-module-memoryguard\memoryguard_src\memoryguard\guard.cpp(91): warning C4244: аргумент: преобразование "SIZE_T" в "const Second", возможна потеря данных
+          with
+          [
+              Second=DWORD
+          ]
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\utility(173): warning C4244: инициализация: преобразование "SIZE_T" в "_Ty2", возможна потеря данных
+          with
+          [
+              _Ty2=DWORD
+          ]
+  c:\users\czynnik.wszystko-21\source\repos\liveguard-antihack-module-memoryguard\memoryguard_src\memoryguard\guard.cpp(87): note: выполняется компиляция ссылки на экземпляр шаблон функции "std::pair<PVOID,DWORD>::pair<PVOID&,SIZE_T&,0>(_Other1,_Other2) noexcept"
+          with
+          [
+              _Other1=PVOID &,
+              _Other2=SIZE_T &
+          ]
+  c:\users\czynnik.wszystko-21\source\repos\liveguard-antihack-module-memoryguard\memoryguard_src\memoryguard\guard.cpp(87): note: выполняется компиляция ссылки на экземпляр шаблон функции "std::pair<PVOID,DWORD>::pair<PVOID&,SIZE_T&,0>(_Other1,_Other2) noexcept"
+          with
+          [
+              _Other1=PVOID &,
+              _Other2=SIZE_T &
+          ]
+  MemoryGuard.vcxproj -> C:\Users\Czynnik.WSZYSTKO-21\source\repos\LiveGuard-AntiHack-Module-MemoryGuard\MemoryGuard_SRC\x64\Release\MemoryGuard.lib
