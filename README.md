@@ -1,20 +1,28 @@
 # Introduction 
-TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
+Memory Guard Library</br>
+Platform: x64-x86</br>
+Version: 1.0.0f</br>
+Creation Date: 12.05.19</br>
+Copyrights: NtKernelMC</br>
+Task: Prevention external memory allocations & detecting hidden memory</br>
 
-# Getting Started
-TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
-1.	Installation process
-2.	Software dependencies
-3.	Latest releases
-4.	API references
+# FEATURES
+> Detection of external kernel-space and user-space memory allocations</br>
+> Support for x64-x86 architectures for Windows family systems from Vista and higher</br>
+> Protection from illegal memory allocation from target process</br>
+> Additional functional for releasing detected memory with hacks</br>
+> Addition functional for destroying hacking threads</br>
+> Additional functional for dumping memory with hacks</br>
+# ФУНКЦИОНАЛ
+> Обнаружение внешнего выделения памяти как с режима ядра так и с юзермода</br>
+> Поддержка х64-х86 архитектур для операционных систем семейства Windows начиная с Vista и выше</br>
+> Защита против несанционнированого выделения памяти уже из нутри целевого процесса</br>
+> Дополнительный функционал для освобождения обнаруженой памяти</br>
+> Дополнительный функционал для безопасного удаления читерских потоков</br>
+> Дополнительный функционал для дампа памяти с обнаружеными читами</br>
 
 # Build and Test
-TODO: Describe and show how to build your code and run the tests. 
+Build static library with architecure of your target project.
 
 # Contribute
-TODO: Explain how other users and developers can contribute to make your code better. 
-
-If you want to learn more about creating good readme files then refer the following [guidelines](https://docs.microsoft.com/en-us/azure/devops/repos/git/create-a-readme?view=azure-devops). You can also seek inspiration from the below readme files:
-- [ASP.NET Core](https://github.com/aspnet/Home)
-- [Visual Studio Code](https://github.com/Microsoft/vscode)
-- [Chakra Core](https://github.com/Microsoft/ChakraCore)
+---
