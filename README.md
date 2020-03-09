@@ -25,4 +25,4 @@ Task: Prevention external memory allocations & detecting hidden memory</br>
 Build static library with architecure of your target project.
 
 # Contribute
----
+Anyone can make this project better, do pull request with your designs!
